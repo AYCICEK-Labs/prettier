@@ -1,0 +1,9 @@
+# Prettier already skips everything in .gitignore.
+# These files are committed but written by tools, not by hand.
+
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+CHANGELOG.md
+*.min.js
+*.min.css
